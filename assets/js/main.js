@@ -229,6 +229,10 @@
       type: 'bullets',
       clickable: true
     },
+    navigation: {
+      nextEl: '.swiper-button-next', // Elemento para avanzar
+      prevEl: '.swiper-button-prev', // Elemento para retroceder
+    },
     on: {
       slideChange: function() {
         // Pausar todos los videos cuando cambia la diapositiva
@@ -237,20 +241,6 @@
           video.pause(); // Pausa cada video
         });
       }
-    }
-  });
-
-  var swiper = new Swiper('.photo-slider', {
-    speed: 600,
-    loop: true,
-    autoplay: {
-      delay: 5000, // Cambia de imagen cada 5 segundos
-      disableOnInteraction: false
-    },
-    pagination: {
-      el: '.swiper-pagination',
-      type: 'bullets',
-      clickable: true
     }
   });
   
