@@ -1,52 +1,56 @@
 <!DOCTYPE html>
-
 <html lang="en">
 
 <head>
   <meta charset="utf-8" />
-  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-  <title>Photography - Federico Strifezzo</title>
-  <meta content="Photography portfolio capturing diverse scenes by Federico Strifezzo" name="description" />
-  <meta content="" name="keywords" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Photography – Federico Strifezzo</title>
+  <meta name="description" content="Photography portfolio capturing aesthetic and narrative-driven scenes by Federico Strifezzo." />
+  <meta name="keywords" content="Photography, Director of Photography, Federico Strifezzo, visual storytelling" />
 
-  <!-- Favicons -->
-  <link href="/assets/img/logo_favicon.webp" rel="icon" />
-  <link href="/assets/img/logo_favicon.webp" rel="apple-touch-icon" />
+  <!-- SEO & Accessibility -->
+  <link rel="alternate" hreflang="en" href="/en/portfolio_fotografia.html" />
+  <link rel="alternate" hreflang="es" href="/es/portfolio_fotografia.html" />
+  <link rel="alternate" hreflang="x-default" href="/" />
 
-  <!-- Google Fonts -->
+  <!-- Favicon -->
+  <link rel="icon" href="/assets/img/logo_favicon.webp" type="image/webp" />
+  <link rel="apple-touch-icon" href="/assets/img/logo_favicon.webp" />
+
+  <!-- Fonts & CSS -->
   <link href="https://fonts.cdnfonts.com/css/gobold" rel="stylesheet" />
   <link href="https://fonts.cdnfonts.com/css/akrobat" rel="stylesheet" />
-
-  <!-- Vendor CSS Files -->
   <link href="/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
   <link href="/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
-
-  <!-- Template Main CSS File -->
   <link href="/assets/css/style.css" rel="stylesheet" />
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-99X7GZFKJB"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-99X7GZFKJB');
+  </script>
 </head>
 
-<!-- Google tag (gtag.js) -->
-<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-99X7GZFKJB"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag() { dataLayer.push(arguments); }
-  gtag('js', new Date());
-
-  gtag('config', 'G-99X7GZFKJB');
-</script>
-
 <body>
-  <div class="lang-switcher" style="position:fixed;top:12px;right:12px;z-index:9999;">
-    <a class="btn btn-sm btn-outline-light" href="/es/portfolio_fotografia.html" style="margin-right:6px;">ES</a>
-    <a class="btn btn-sm btn-outline-light" href="/en/portfolio_fotografia.html">EN</a>
+  <!-- Language Switcher -->
+  <div class="lang-switcher" aria-label="Language switcher" style="position:fixed;top:12px;right:12px;z-index:9999;">
+    <a class="btn btn-sm btn-outline-light" href="/es/portfolio_fotografia.html" style="margin-right:6px;" aria-label="Versión en español">ES</a>
+    <a class="btn btn-sm btn-outline-light" href="/en/portfolio_fotografia.html" aria-label="English version">EN</a>
   </div>
 
   <main id="main">
-
-    <!-- ======= Portfolio Details Section ======= -->
-    <section class="portfolio-details" id="portfolio-details">
+    <!-- ======= Photography Portfolio Section ======= -->
+    <section class="portfolio-details" id="portfolio-details" aria-labelledby="portfolio-title">
       <div class="container">
         <div class="row gy-4">
+
+          <!-- Hidden Accessible Title -->
+          <h1 id="portfolio-title" class="visually-hidden">Photography Portfolio by Federico Strifezzo</h1>
+
+          <!-- Description -->
           <div class="col-lg-12">
             <div class="portfolio-description">
               <p>
@@ -60,69 +64,50 @@
               </p>
             </div>
           </div>
+
+          <!-- Swiper Gallery -->
           <div class="col-lg-12">
-            <div class="portfolio-details-slider swiper">
+            <div class="portfolio-details-slider swiper" aria-label="Photography Gallery Slider">
               <div class="swiper-wrapper align-items-center">
-                <div class="swiper-slide">
-                  <img loading="lazy" alt="Photograph 1" src="/assets/img/portfolio/fotografia/frame1.jpg" />
-                </div>
-                <div class="swiper-slide">
-                  <img loading="lazy" alt="Photograph 2" src="/assets/img/portfolio/fotografia/frame2.jpg" />
-                </div>
-                <div class="swiper-slide">
-                  <img loading="lazy" alt="Photograph 3" src="/assets/img/portfolio/fotografia/frame3.jpg" />
-                </div>
-                <div class="swiper-slide">
-                  <img loading="lazy" alt="Photograph 4" src="/assets/img/portfolio/fotografia/frame4.jpg" />
-                </div>
-                <div class="swiper-slide">
-                  <img loading="lazy" alt="Photograph 5" src="/assets/img/portfolio/fotografia/frame5.jpg" />
-                </div>
-                <div class="swiper-slide">
-                  <img loading="lazy" alt="Photograph 6" src="/assets/img/portfolio/fotografia/frame6.jpg" />
-                </div>
-                <div class="swiper-slide">
-                  <img loading="lazy" alt="Photograph 7" src="/assets/img/portfolio/fotografia/frame7.jpg" />
-                </div>
-                <div class="swiper-slide">
-                  <img loading="lazy" alt="Photograph 8" src="/assets/img/portfolio/fotografia/frame8.jpg" />
-                </div>
-                <div class="swiper-slide">
-                  <img loading="lazy" alt="Photograph 9" src="/assets/img/portfolio/fotografia/frame9.jpg" />
-                </div>
-                <div class="swiper-slide">
-                  <img loading="lazy" alt="Photograph 10" src="/assets/img/portfolio/fotografia/frame10.jpg" />
-                </div>
-                <div class="swiper-slide">
-                  <img loading="lazy" alt="Photograph 11" src="/assets/img/portfolio/fotografia/frame11.jpg" />
-                </div>
+
+                <!-- START: Slides -->
+                <!-- Each slide uses a figure for semantic meaning -->
+                <!-- You can edit alt texts to describe each image if needed -->
+
+                <div class="swiper-slide"><figure><img loading="lazy" src="/assets/img/portfolio/fotografia/frame1.jpg" alt="Photograph 1 by Federico Strifezzo" /></figure></div>
+                <div class="swiper-slide"><figure><img loading="lazy" src="/assets/img/portfolio/fotografia/frame2.jpg" alt="Photograph 2 by Federico Strifezzo" /></figure></div>
+                <div class="swiper-slide"><figure><img loading="lazy" src="/assets/img/portfolio/fotografia/frame3.jpg" alt="Photograph 3 by Federico Strifezzo" /></figure></div>
+                <div class="swiper-slide"><figure><img loading="lazy" src="/assets/img/portfolio/fotografia/frame4.jpg" alt="Photograph 4 by Federico Strifezzo" /></figure></div>
+                <div class="swiper-slide"><figure><img loading="lazy" src="/assets/img/portfolio/fotografia/frame5.jpg" alt="Photograph 5 by Federico Strifezzo" /></figure></div>
+                <div class="swiper-slide"><figure><img loading="lazy" src="/assets/img/portfolio/fotografia/frame6.jpg" alt="Photograph 6 by Federico Strifezzo" /></figure></div>
+                <div class="swiper-slide"><figure><img loading="lazy" src="/assets/img/portfolio/fotografia/frame7.jpg" alt="Photograph 7 by Federico Strifezzo" /></figure></div>
+                <div class="swiper-slide"><figure><img loading="lazy" src="/assets/img/portfolio/fotografia/frame8.jpg" alt="Photograph 8 by Federico Strifezzo" /></figure></div>
+                <div class="swiper-slide"><figure><img loading="lazy" src="/assets/img/portfolio/fotografia/frame9.jpg" alt="Photograph 9 by Federico Strifezzo" /></figure></div>
+                <div class="swiper-slide"><figure><img loading="lazy" src="/assets/img/portfolio/fotografia/frame10.jpg" alt="Photograph 10 by Federico Strifezzo" /></figure></div>
+                <div class="swiper-slide"><figure><img loading="lazy" src="/assets/img/portfolio/fotografia/frame11.jpg" alt="Photograph 11 by Federico Strifezzo" /></figure></div>
+
+                <!-- END: Slides -->
               </div>
 
-              <!-- Flechas de navegación -->
-              <div class="swiper-button-next"></div>
-              <div class="swiper-button-prev"></div>
+              <!-- Navigation Arrows -->
+              <div class="swiper-button-next" aria-label="Next image"></div>
+              <div class="swiper-button-prev" aria-label="Previous image"></div>
 
-              <!-- Paginación (puntos debajo de las imágenes) -->
-              <div class="swiper-pagination"></div>
-
+              <!-- Pagination Dots -->
+              <div class="swiper-pagination" aria-label="Image pagination"></div>
             </div>
           </div>
 
         </div>
       </div>
     </section>
-    <!-- End Portfolio Details Section -->
-
   </main>
-  <!-- End #main -->
 
-  <!-- Vendor JS Files -->
-  <script src="/assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <!-- Vendor JS -->
+  <script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="/assets/vendor/swiper/swiper-bundle.min.js"></script>
-
-  <!-- Template Main JS File -->
+  <script src="/assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="/assets/js/main.js"></script>
 
 </body>
-
 </html>
