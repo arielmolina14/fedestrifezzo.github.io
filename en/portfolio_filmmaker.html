@@ -1,53 +1,63 @@
 <!DOCTYPE html>
-
 <html lang="en">
 
 <head>
   <meta charset="utf-8" />
-  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-  <title>Filmmaker - Federico Strifezzo</title>
-  <meta content="Filmmaking portfolio showcasing production work by Federico Strifezzo" name="description" />
-  <meta content="" name="keywords" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Filmmaker – Federico Strifezzo</title>
+  <meta name="description" content="Filmmaking portfolio showcasing production work by Federico Strifezzo." />
+  <meta name="keywords" content="filmmaker, portfolio, audiovisual, Federico Strifezzo, production" />
 
-  <!-- Favicons -->
-  <link href="/assets/img/logo_favicon.webp" rel="icon" />
-  <link href="/assets/img/logo_favicon.webp" rel="apple-touch-icon" />
+  <!-- SEO & Accessibility -->
+  <link rel="alternate" hreflang="en" href="/en/portfolio_filmmaker.html" />
+  <link rel="alternate" hreflang="es" href="/es/portfolio_filmmaker.html" />
+  <link rel="alternate" hreflang="x-default" href="/" />
 
-  <!-- Google Fonts -->
+  <!-- Favicon -->
+  <link rel="icon" href="/assets/img/logo_favicon.webp" type="image/webp" />
+  <link rel="apple-touch-icon" href="/assets/img/logo_favicon.webp" />
+
+  <!-- Fonts & Styles -->
   <link href="https://fonts.cdnfonts.com/css/gobold" rel="stylesheet" />
   <link href="https://fonts.cdnfonts.com/css/akrobat" rel="stylesheet" />
-
-  <!-- Vendor CSS Files -->
   <link href="/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
   <link href="/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
-
-  <!-- Template Main CSS File -->
   <link href="/assets/css/style.css" rel="stylesheet" />
 
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-99X7GZFKJB"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){ dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-99X7GZFKJB');
+  </script>
 </head>
 
-<!-- Google tag (gtag.js) -->
-<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-99X7GZFKJB"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag() { dataLayer.push(arguments); }
-  gtag('js', new Date());
-
-  gtag('config', 'G-99X7GZFKJB');
-</script>
-
 <body>
-  <div class="lang-switcher" style="position:fixed;top:12px;right:12px;z-index:9999;">
-    <a class="btn btn-sm btn-outline-light" href="/es/portfolio_filmmaker.html" style="margin-right:6px;">ES</a>
-    <a class="btn btn-sm btn-outline-light" href="/en/portfolio_filmmaker.html">EN</a>
+  <noscript>
+    <p style="text-align:center; padding:1rem; background:#f8d7da; color:#721c24;">
+      JavaScript is disabled. Access manually: 
+      <a href="/es/portfolio_filmmaker.html">Español</a> or 
+      <a href="/en/portfolio_filmmaker.html">English</a>.
+    </p>
+  </noscript>
+
+  <div class="lang-switcher" aria-label="Language switcher" style="position:fixed; top:12px; right:12px; z-index:9999;">
+    <a class="btn btn-sm btn-outline-light" href="/es/portfolio_filmmaker.html" style="margin-right:6px;" aria-label="Versión en español">ES</a>
+    <a class="btn btn-sm btn-outline-light" href="/en/portfolio_filmmaker.html" aria-label="English version">EN</a>
   </div>
 
   <main id="main">
-
-    <!-- ======= Portfolio Details Section ======= -->
-    <section class="portfolio-details" id="portfolio-details">
+    <!-- ======= Filmmaker Portfolio Section ======= -->
+    <section class="portfolio-details" id="portfolio-details" aria-labelledby="portfolio-title">
       <div class="container">
         <div class="row gy-4">
+
+          <!-- Accessible hidden title -->
+          <h1 id="portfolio-title" class="visually-hidden">Filmmaker Portfolio by Federico Strifezzo</h1>
+
+          <!-- Description -->
           <div class="col-lg-12">
             <div class="portfolio-description">
               <p>
@@ -59,122 +69,164 @@
               </p>
             </div>
           </div>
+
+          <!-- Video Slider -->
           <div class="col-lg-12">
-            <div class="portfolio-details-slider swiper">
+            <div class="portfolio-details-slider swiper" aria-label="Filmmaker Video Slider">
               <div class="swiper-wrapper align-items-center">
-                <div class="swiper-slide">
-                  <video controls="" height="520" width="100%">
-                    <!--<video width="100%" height="520" autoplay="" controls loop="" muted="">-->
-                    <source
-                      src="https://github.com/arielmolina14/fedestrifezzo.github.io/raw/main/assets/img/portfolio/filmmaker/01-moda.webm" />
-                    <!-- <source src="/assets/img/portfolio/filmmaker/video01.mp4" type="video/mp4"> -->
-                    Your browser does not support the video element.
-                  </video>
+
+                <!-- Slide structure with accessibility improvements -->
+                <!-- START: Filmmaker Video Slides -->
+                <!-- 1 -->
+                <div class="swiper-slide" role="group" aria-label="Fashion Reel – Slide 1 of 10">
+                  <figure>
+                    <figcaption class="visually-hidden" lang="en">Fashion Reel</figcaption>
+                    <video controls preload="metadata" width="100%" height="520" aria-describedby="fm-desc-1" type="video/webm">
+                      <source src="/assets/img/portfolio/filmmaker/01-moda.webm" type="video/webm" />
+                    </video>
+                    <p id="fm-desc-1" class="video-description" lang="en">
+                      A stylish fashion reel highlighting editorial aesthetics and dynamic transitions.
+                    </p>
+                  </figure>
                 </div>
-                <div class="swiper-slide">
-                  <video controls="" height="520" width="100%">
-                    <!--<video width="100%" height="520" autoplay="" controls loop="" muted="">-->
-                    <source
-                      src="https://github.com/arielmolina14/fedestrifezzo.github.io/raw/main/assets/img/portfolio/filmmaker/02-hotel.webm" />
-                    <!-- <source src="/assets/img/portfolio/filmmaker/video02.mp4" type="video/mp4"> -->
-                    Your browser does not support the video element.
-                  </video>
+
+                <!-- 2 -->
+                <div class="swiper-slide" role="group" aria-label="Hotel Promo – Slide 2 of 10">
+                  <figure>
+                    <figcaption class="visually-hidden" lang="en">Hotel Promo</figcaption>
+                    <video controls preload="metadata" width="100%" height="520" aria-describedby="fm-desc-2" type="video/webm">
+                      <source src="/assets/img/portfolio/filmmaker/02-hotel.webm" type="video/webm" />
+                    </video>
+                    <p id="fm-desc-2" class="video-description" lang="en">
+                      Promotional video for a luxury hotel, featuring atmospheric lighting and elegant framing.
+                    </p>
+                  </figure>
                 </div>
-                <div class="swiper-slide">
-                  <video controls="" height="520" width="100%">
-                    <!--<video width="100%" height="520" autoplay="" controls loop="" muted="">-->
-                    <source
-                      src="https://github.com/arielmolina14/fedestrifezzo.github.io/raw/main/assets/img/portfolio/filmmaker/03-carreras.webm" />
-                    <!-- <source src="/assets/img/portfolio/filmmaker/video02.mp4" type="video/mp4"> -->
-                    Your browser does not support the video element.
-                  </video>
+
+                <!-- 3 -->
+                <div class="swiper-slide" role="group" aria-label="Race Event Coverage – Slide 3 of 10">
+                  <figure>
+                    <figcaption class="visually-hidden" lang="en">Race Event Coverage</figcaption>
+                    <video controls preload="metadata" width="100%" height="520" aria-describedby="fm-desc-3" type="video/webm">
+                      <source src="/assets/img/portfolio/filmmaker/03-carreras.webm" type="video/webm" />
+                    </video>
+                    <p id="fm-desc-3" class="video-description" lang="en">
+                      Dynamic coverage of a racing event with immersive camera movement and rhythmic pacing.
+                    </p>
+                  </figure>
                 </div>
-                <div class="swiper-slide">
-                  <video controls="" height="520" width="100%">
-                    <!--<video width="100%" height="520" autoplay="" controls loop="" muted="">-->
-                    <source
-                      src="https://github.com/arielmolina14/fedestrifezzo.github.io/raw/main/assets/img/portfolio/filmmaker/04-vino.webm" />
-                    <!-- <source src="/assets/img/portfolio/filmmaker/video03.mp4" type="video/mp4"> -->
-                    Your browser does not support the video element.
-                  </video>
+
+                <!-- 4 -->
+                <div class="swiper-slide" role="group" aria-label="Wine Brand Film – Slide 4 of 10">
+                  <figure>
+                    <figcaption class="visually-hidden" lang="en">Wine Brand Film</figcaption>
+                    <video controls preload="metadata" width="100%" height="520" aria-describedby="fm-desc-4" type="video/webm">
+                      <source src="/assets/img/portfolio/filmmaker/04-vino.webm" type="video/webm" />
+                    </video>
+                    <p id="fm-desc-4" class="video-description" lang="en">
+                      A refined brand piece for a wine label, balancing texture shots with atmospheric storytelling.
+                    </p>
+                  </figure>
                 </div>
-                <div class="swiper-slide">
-                  <video controls="" height="520" width="100%">
-                    <!--<video width="100%" height="520" autoplay="" controls loop="" muted="">-->
-                    <source
-                      src="https://github.com/arielmolina14/fedestrifezzo.github.io/raw/main/assets/img/portfolio/filmmaker/05-yoga.webm" />
-                    <!-- <source src="/assets/img/portfolio/filmmaker/video04.mp4" type="video/mp4"> -->
-                    Your browser does not support the video element.
-                  </video>
+
+                <!-- 5 -->
+                <div class="swiper-slide" role="group" aria-label="Yoga Session – Slide 5 of 10">
+                  <figure>
+                    <figcaption class="visually-hidden" lang="en">Yoga Session</figcaption>
+                    <video controls preload="metadata" width="100%" height="520" aria-describedby="fm-desc-5" type="video/webm">
+                      <source src="/assets/img/portfolio/filmmaker/05-yoga.webm" type="video/webm" />
+                    </video>
+                    <p id="fm-desc-5" class="video-description" lang="en">
+                      Serene yoga session captured with calm movement and immersive composition.
+                    </p>
+                  </figure>
                 </div>
-                <div class="swiper-slide">
-                  <video controls="" height="520" width="100%">
-                    <!--<video width="100%" height="520" autoplay="" controls loop="" muted="">-->
-                    <source
-                      src="https://github.com/arielmolina14/fedestrifezzo.github.io/raw/main/assets/img/portfolio/filmmaker/06-boxeo.webm" />
-                    <!-- <source src="/assets/img/portfolio/filmmaker/video05.mp4" type="video/mp4"> -->
-                    Your browser does not support the video element.
-                  </video>
+
+                <!-- 6 -->
+                <div class="swiper-slide" role="group" aria-label="Boxing Club Film – Slide 6 of 10">
+                  <figure>
+                    <figcaption class="visually-hidden" lang="en">Boxing Club Film</figcaption>
+                    <video controls preload="metadata" width="100%" height="520" aria-describedby="fm-desc-6" type="video/webm">
+                      <source src="/assets/img/portfolio/filmmaker/06-boxeo.webm" type="video/webm" />
+                    </video>
+                    <p id="fm-desc-6" class="video-description" lang="en">
+                      Energetic visual story capturing training sessions at a boxing club.
+                    </p>
+                  </figure>
                 </div>
-                <div class="swiper-slide">
-                  <video controls="" height="520" width="100%">
-                    <!--<video width="100%" height="520" autoplay="" controls loop="" muted="">-->
-                    <source
-                      src="https://github.com/arielmolina14/fedestrifezzo.github.io/raw/main/assets/img/portfolio/filmmaker/07-montessori.webm" />
-                    <!-- <source src="/assets/img/portfolio/filmmaker/video06.mp4" type="video/mp4"> -->
-                    Your browser does not support the video element.
-                  </video>
+
+                <!-- 7 -->
+                <div class="swiper-slide" role="group" aria-label="Montessori Educational Film – Slide 7 of 10">
+                  <figure>
+                    <figcaption class="visually-hidden" lang="en">Montessori Educational Film</figcaption>
+                    <video controls preload="metadata" width="100%" height="520" aria-describedby="fm-desc-7" type="video/webm">
+                      <source src="/assets/img/portfolio/filmmaker/07-montessori.webm" type="video/webm" />
+                    </video>
+                    <p id="fm-desc-7" class="video-description" lang="en">
+                      A warm, engaging film showcasing Montessori-style education through lens-driven narrative.
+                    </p>
+                  </figure>
                 </div>
-                <div class="swiper-slide">
-                  <video controls="" height="520" width="100%">
-                    <!--<video width="100%" height="520" autoplay="" controls loop="" muted="">-->
-                    <source
-                      src="https://github.com/arielmolina14/fedestrifezzo.github.io/raw/main/assets/img/portfolio/filmmaker/08-asado.webm" />
-                    <!-- <source src="/assets/img/portfolio/filmmaker/video07.mp4" type="video/mp4"> -->
-                    Your browser does not support the video element.
-                  </video>
+
+                <!-- 8 -->
+                <div class="swiper-slide" role="group" aria-label="Outdoor Grill – Slide 8 of 10">
+                  <figure>
+                    <figcaption class="visually-hidden" lang="en">Outdoor Grill</figcaption>
+                    <video controls preload="metadata" width="100%" height="520" aria-describedby="fm-desc-8" type="video/webm">
+                      <source src="/assets/img/portfolio/filmmaker/08-asado.webm" type="video/webm" />
+                    </video>
+                    <p id="fm-desc-8" class="video-description" lang="en">
+                      A tactile, sensory film centered around an outdoor grilling scene.
+                    </p>
+                  </figure>
                 </div>
-                <div class="swiper-slide">
-                  <video controls="" height="520" width="100%">
-                    <!--<video width="100%" height="520" autoplay="" controls loop="" muted="">-->
-                    <source
-                      src="https://github.com/arielmolina14/fedestrifezzo.github.io/raw/main/assets/img/portfolio/filmmaker/09-chad.webm" />
-                    <!-- <source src="/assets/img/portfolio/filmmaker/video07.mp4" type="video/mp4"> -->
-                    Your browser does not support the video element.
-                  </video>
+
+                <!-- 9 -->
+                <div class="swiper-slide" role="group" aria-label="Chad Project – Slide 9 of 10">
+                  <figure>
+                    <figcaption class="visually-hidden" lang="en">Chad Project</figcaption>
+                    <video controls preload="metadata" width="100%" height="520" aria-describedby="fm-desc-9" type="video/webm">
+                      <source src="/assets/img/portfolio/filmmaker/09-chad.webm" type="video/webm" />
+                    </video>
+                    <p id="fm-desc-9" class="video-description" lang="en">
+                      Documentary-like project focused on the Chad region and its stories.
+                    </p>
+                  </figure>
                 </div>
-                <div class="swiper-slide">
-                  <video controls="" height="520" width="100%">
-                    <!--<video width="100%" height="520" autoplay="" controls loop="" muted="">-->
-                    <source
-                      src="https://github.com/arielmolina14/fedestrifezzo.github.io/raw/main/assets/img/portfolio/filmmaker/10-senna.webm" />
-                    <!-- <source src="/assets/img/portfolio/filmmaker/video07.mp4" type="video/mp4"> -->
-                    Your browser does not support the video element.
-                  </video>
+
+                <!-- 10 -->
+                <div class="swiper-slide" role="group" aria-label="Senna Tribute – Slide 10 of 10">
+                  <figure>
+                    <figcaption class="visually-hidden" lang="en">Senna Tribute</figcaption>
+                    <video controls preload="metadata" width="100%" height="520" aria-describedby="fm-desc-10" type="video/webm">
+                      <source src="/assets/img/portfolio/filmmaker/10-senna.webm" type="video/webm" />
+                    </video>
+                    <p id="fm-desc-10" class="video-description" lang="en">
+                      A tribute piece for Senna, capturing emotional and dynamic storytelling.
+                    </p>
+                  </figure>
                 </div>
+                <!-- END: Filmmaker Video Slides -->
+
               </div>
-              <!-- Flechas de navegación -->
-              <div class="swiper-button-next"></div>
-              <div class="swiper-button-prev"></div>
-              
-              <!-- Paginación (puntos debajo de las imágenes) -->
-              <div class="swiper-pagination"></div>
+
+              <!-- Slider Controls -->
+              <div class="swiper-button-next" aria-label="Next video"></div>
+              <div class="swiper-button-prev" aria-label="Previous video"></div>
+              <div class="swiper-pagination" aria-label="Video pagination"></div>
             </div>
           </div>
+
         </div>
       </div>
     </section>
-    <!-- End Portfolio Details Section -->
+  </main>
 
-  </main><!-- End #main -->
-
-  <!-- Vendor JS Files -->
-  <script src="/assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <!-- JS Vendors -->
+  <script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="/assets/vendor/swiper/swiper-bundle.min.js"></script>
-
-  <!-- Template Main JS File -->
+  <script src="/assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="/assets/js/main.js"></script>
 
 </body>
-
 </html>
