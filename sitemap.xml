@@ -1,7 +1,37 @@
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!--  created with Free Online Sitemap Generator www.xml-sitemaps.com  -->
-<url>
-<loc>https://federicostrifezzo.com/</loc>
-<lastmod>2025-08-21T21:17:43+00:00</lastmod>
-</url>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://federicostrifezzo.com/</loc>
+    <lastmod>2025-08-21</lastmod>
+  </url>
+  <url>
+    <loc>https://federicostrifezzo.com/en/</loc>
+  </url>
+  <url>
+    <loc>https://federicostrifezzo.com/es/</loc>
+  </url>
+  <url>
+    <loc>https://federicostrifezzo.com/en/portfolio_ia.html</loc>
+  </url>
+  <url>
+    <loc>https://federicostrifezzo.com/es/portfolio_ia.html</loc>
+  </url>
+  <url>
+    <loc>https://federicostrifezzo.com/en/portfolio_filmmaker.html</loc>
+  </url>
+  <url>
+    <loc>https://federicostrifezzo.com/es/portfolio_filmmaker.html</loc>
+  </url>
+  <url>
+    <loc>https://federicostrifezzo.com/en/portfolio_direction.html</loc>
+  </url>
+  <url>
+    <loc>https://federicostrifezzo.com/es/portfolio_direccion.html</loc>
+  </url>
+  <url>
+    <loc>https://federicostrifezzo.com/en/portfolio_fotografia.html</loc>
+  </url>
+  <url>
+    <loc>https://federicostrifezzo.com/es/portfolio_fotografia.html</loc>
+  </url>
 </urlset>
