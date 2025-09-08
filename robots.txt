@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-
 Sitemap: https://federicostrifezzo.com/sitemap.xml
