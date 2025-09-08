@@ -4,157 +4,209 @@
 
 <head>
   <meta charset="utf-8" />
-  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-  <title>IA - Federico Strifezzo</title>
-  <meta content="AI projects by Federico Strifezzo exploring creative technologies" name="description" />
-  <meta content="" name="keywords" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Portfolio - Federico Strifezzo</title>
+  <meta name="description" content="AI projects by Federico Strifezzo using generative technologies." />
+  <meta name="keywords" content="AI, portfolio, generative art, filmmaker, Federico Strifezzo" />
+  
+  <!-- Accessibility & SEO -->
+  <link rel="alternate" hreflang="en" href="/en/portfolio_ia.html" />
+  <link rel="alternate" hreflang="es" href="/es/portfolio_ia.html" />
+  <link rel="alternate" hreflang="x-default" href="/" />
 
-  <!-- Favicons -->
-  <link href="/assets/img/logo_favicon.webp" rel="icon" />
-  <link href="/assets/img/logo_favicon.webp" rel="apple-touch-icon" />
+  <!-- Favicon -->
+  <link rel="icon" href="/assets/img/logo_favicon.webp" type="image/webp" />
+  <link rel="apple-touch-icon" href="/assets/img/logo_favicon.webp" />
 
-  <!-- Google Fonts -->
+  <!-- Fonts & CSS -->
   <link href="https://fonts.cdnfonts.com/css/gobold" rel="stylesheet" />
   <link href="https://fonts.cdnfonts.com/css/akrobat" rel="stylesheet" />
-
-  <!-- Vendor CSS Files -->
   <link href="/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
   <link href="/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
-
-  <!-- Template Main CSS File -->
   <link href="/assets/css/style.css" rel="stylesheet" />
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-99X7GZFKJB"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){ dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-99X7GZFKJB');
+  </script>
 </head>
 
-<!-- Google tag (gtag.js) -->
-<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-99X7GZFKJB"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag() { dataLayer.push(arguments); }
-  gtag('js', new Date());
-
-  gtag('config', 'G-99X7GZFKJB');
-</script>
-
 <body>
-  <div class="lang-switcher" style="position:fixed;top:12px;right:12px;z-index:9999;">
-    <a class="btn btn-sm btn-outline-light" href="/es/portfolio_ia.html" style="margin-right:6px;">ES</a>
-    <a class="btn btn-sm btn-outline-light" href="/en/portfolio_ia.html">EN</a>
+  <noscript>
+    <p style="text-align:center; padding: 1rem; background: #f8d7da; color: #721c24;">
+      JavaScript is disabled. You can view content manually: 
+      <a href="/es/portfolio_ia.html">Español</a> or 
+      <a href="/en/portfolio_ia.html">English</a>.
+    </p>
+  </noscript>
+
+  <div class="lang-switcher" aria-label="Language switcher" style="position:fixed;top:12px;right:12px;z-index:9999;">
+    <a class="btn btn-sm btn-outline-light" href="/es/portfolio_ia.html" style="margin-right:6px;" aria-label="Versión en español">ES</a>
+    <a class="btn btn-sm btn-outline-light" href="/en/portfolio_ia.html" aria-label="English version">EN</a>
   </div>
 
   <main id="main">
 
-    <!-- ======= Portfolio Details Section ======= -->
-    <section class="portfolio-details" id="portfolio-details">
+    <!-- ======= AI Portfolio Section ======= -->
+    <section class="portfolio-details" id="portfolio-details" aria-labelledby="portfolio-title">
       <div class="container">
         <div class="row gy-4">
+
+          <!-- Título oculto accesible -->
+          <h1 id="portfolio-title" class="visually-hidden">Generative AI Portfolio by Federico Strifezzo</h1>
+
+          <!-- Descripción principal -->
           <div class="col-lg-12">
             <div class="portfolio-description">
               <p>
                 <span style="color: #ed1c24;">As a specialist in generative AI applied to audiovisual media</span>, 
-                I have mastered a complete ecosystem of state-of-the-art tools that allow me to cover all stages of production. <br> <br>
-                <span style="color: #ed1c24;">Idea development and script</span>: Claude, ChatGPT 
-                <span style="color: #ed1c24;">Image generation and editing</span>: Midjourney, Flux Kontext, Nano Banana, Google Images, Ideogram, Runway Reference 
-                <span style="color: #ed1c24;">Generative Video</span>: Kling, Runway Gen 4 and Runway Aleph, Seedance, Wan 2.2, Google Veo 3, Luma Lab, Hailuo 
-                <span style="color: #ed1c24;">Audio</span>: Synthetic voice and music generation with ElevenLabs, MiniMax <br> <br>
+                I have mastered a complete ecosystem of state-of-the-art tools that allow me to cover all stages of production. <br><br>
+
+                <span style="color: #ed1c24;">Idea development and script</span>: Claude, ChatGPT<br>
+                <span style="color: #ed1c24;">Image generation and editing</span>: Midjourney, Flux Kontext, Nano Banana, Google Images, Ideogram, Runway Reference<br>
+                <span style="color: #ed1c24;">Generative Video</span>: Kling, Runway Gen 4 and Runway Aleph, Seedance, Wan 2.2, Google Veo 3, Luma Lab, Hailuo<br>
+                <span style="color: #ed1c24;">Audio</span>: Synthetic voice and music generation with ElevenLabs, MiniMax<br><br>
+
                 I have completed short films and REELS using these technologies, and I constantly experiment with new tools 
-                to stay up to date with the latest advances in the field. <br> <br>
+                to stay up to date with the latest advances in the field. <br><br>
               </p>
             </div>
           </div>
+
+          <!-- Swiper video slider -->
           <div class="col-lg-12">
-            <div class="portfolio-details-slider swiper">
+            <div class="portfolio-details-slider swiper" aria-label="AI Video Slider">
+              <!-- START: AI Portfolio Swiper Slides -->
               <div class="swiper-wrapper align-items-center">
-                <div class="swiper-slide">
-                  <video controls="" height="520" width="100%">
-                    <!--<video width="100%" height="520" autoplay="" controls loop="" muted="">-->
-                    <source
-                      src="https://github.com/arielmolina14/fedestrifezzo.github.io/raw/main/assets/img/portfolio/ia/01-ia.webm">
-                    <!-- <source src="/assets/img/portfolio/ia/01-ia.webm" type="video/mp4"> -->
-                    Your browser does not support the video element.
-                  </video>
+
+                <!-- Slide 1 -->
+                <div class="swiper-slide" role="group" aria-label="AI-Generated Visual Storytelling – Slide 1 of 8">
+                  <figure>
+                    <figcaption class="visually-hidden" lang="en">AI-Generated Visual Storytelling</figcaption>
+                    <video controls preload="metadata" width="100%" height="520" aria-describedby="desc-01" type="video/webm">
+                      <source src="/assets/img/portfolio/ia/01-ai-storytelling.webm" type="video/webm" />
+                    </video>
+                    <p id="desc-01" class="video-description" lang="en">
+                      Showcasing the power of generative AI in audiovisual production, this video highlights innovative techniques that transform ideas into compelling visual narratives.
+                    </p>
+                  </figure>
                 </div>
-                <div class="swiper-slide">
-                  <video controls="" height="520" width="100%">
-                    <!--<video width="100%" height="520" autoplay="" controls loop="" muted="">-->
-                    <source
-                      src="https://github.com/arielmolina14/fedestrifezzo.github.io/raw/main/assets/img/portfolio/ia/02-ia.webm">
-                    <!-- <source src="/assets/img/portfolio/ia/02-ia.webm.mp4" type="video/mp4"> -->
-                    Your browser does not support the video element.
-                  </video>
+
+                <!-- Slide 2 -->
+                <div class="swiper-slide" role="group" aria-label="Generative AI Electric Blue Motion – Slide 2 of 8">
+                  <figure>
+                    <figcaption class="visually-hidden" lang="en">Generative AI Electric Blue Motion</figcaption>
+                    <video controls preload="metadata" width="100%" height="520" aria-describedby="desc-02" type="video/webm">
+                      <source src="/assets/img/portfolio/ia/02-electric-blue-motion.webm" type="video/webm" />
+                    </video>
+                    <p id="desc-02" class="video-description" lang="en">
+                      A vivid, luminous exploration of AI-driven motion design, blending smooth gradients and crisp transitions to evoke a sleek, futuristic visual language.
+                    </p>
+                  </figure>
                 </div>
-                <div class="swiper-slide">
-                  <video controls="" height="520" width="100%">
-                    <!--<video width="100%" height="520" autoplay="" controls loop="" muted="">-->
-                    <source
-                      src="https://github.com/arielmolina14/fedestrifezzo.github.io/raw/main/assets/img/portfolio/ia/03-ia.webm">
-                    <!-- <source src="/assets/img/portfolio/ia/02-ia.webm.mp4" type="video/mp4"> -->
-                    Your browser does not support the video element.
-                  </video>
+
+                <!-- Slide 3 -->
+                <div class="swiper-slide" role="group" aria-label="Generative AI Blue Textured Motion – Slide 3 of 8">
+                  <figure>
+                    <figcaption class="visually-hidden" lang="en">Generative AI Blue Textured Motion</figcaption>
+                    <video controls preload="metadata" width="100%" height="520" aria-describedby="desc-03" type="video/webm">
+                      <source src="/assets/img/portfolio/ia/03-blue-textured-motion.webm" type="video/webm" />
+                    </video>
+                    <p id="desc-03" class="video-description" lang="en">
+                      A refined study in AI-generated cinematics, featuring rich blues and layered textures that shape a modern, design-forward visual narrative.
+                    </p>
+                  </figure>
                 </div>
-                <div class="swiper-slide">
-                  <video controls="" height="520" width="100%">
-                    <!--<video width="100%" height="520" autoplay="" controls loop="" muted="">-->
-                    <source
-                      src="https://github.com/arielmolina14/fedestrifezzo.github.io/raw/main/assets/img/portfolio/ia/04-ia.webm">
-                    <!-- <source src="/assets/img/portfolio/ia/02-ia.webm.mp4" type="video/mp4"> -->
-                    Your browser does not support the video element.
-                  </video>
+
+                <!-- Slide 4 -->
+                <div class="swiper-slide" role="group" aria-label="Generative AI Emerald Cinematic – Slide 4 of 8">
+                  <figure>
+                    <figcaption class="visually-hidden" lang="en">Generative AI Emerald Cinematic</figcaption>
+                    <video controls preload="metadata" width="100%" height="520" aria-describedby="desc-04" type="video/webm">
+                      <source src="/assets/img/portfolio/ia/04-emerald-cinematic.webm" type="video/webm" />
+                    </video>
+                    <p id="desc-04" class="video-description" lang="en">
+                      A moody, emerald-toned sequence where generative AI crafts organic forms and fluid motion for an atmospheric, contemporary aesthetic.
+                    </p>
+                  </figure>
                 </div>
-                <div class="swiper-slide">
-                  <video controls="" height="520" width="100%">
-                    <!--<video width="100%" height="520" autoplay="" controls loop="" muted="">-->
-                    <source
-                      src="https://github.com/arielmolina14/fedestrifezzo.github.io/raw/main/assets/img/portfolio/ia/05-ia.webm">
-                    <!-- <source src="/assets/img/portfolio/ia/02-ia.webm.mp4" type="video/mp4"> -->
-                    Your browser does not support the video element.
-                  </video>
+
+                <!-- Slide 5 -->
+                <div class="swiper-slide" role="group" aria-label="Generative AI Neon Green Dynamic Patterns – Slide 5 of 8">
+                  <figure>
+                    <figcaption class="visually-hidden" lang="en">Generative AI Neon Green Dynamic Patterns</figcaption>
+                    <video controls preload="metadata" width="100%" height="520" aria-describedby="desc-05" type="video/webm">
+                      <source src="/assets/img/portfolio/ia/05-neon-green-patterns.webm" type="video/webm" />
+                    </video>
+                    <p id="desc-05" class="video-description" lang="en">
+                      A high-energy abstract reel of AI-generated patterns and rhythmic motion, channeling neon greens into a striking, design-led composition.
+                    </p>
+                  </figure>
                 </div>
-                <div class="swiper-slide">
-                  <video controls="" height="520" width="100%">
-                    <!--<video width="100%" height="520" autoplay="" controls loop="" muted="">-->
-                    <source
-                      src="https://github.com/arielmolina14/fedestrifezzo.github.io/raw/main/assets/img/portfolio/ia/06-ia.webm">
-                    <!-- <source src="/assets/img/portfolio/ia/02-ia.webm.mp4" type="video/mp4"> -->
-                    Your browser does not support the video element.
-                  </video>
+
+                <!-- Slide 6 -->
+                <div class="swiper-slide" role="group" aria-label="Generative AI Warm Amber Geometric – Slide 6 of 8">
+                  <figure>
+                    <figcaption class="visually-hidden" lang="en">Generative AI Warm Amber Geometric</figcaption>
+                    <video controls preload="metadata" width="100%" height="520" aria-describedby="desc-06" type="video/webm">
+                      <source src="/assets/img/portfolio/ia/06-warm-amber-geometric.webm" type="video/webm" />
+                    </video>
+                    <p id="desc-06" class="video-description" lang="en">
+                      A minimal yet intricate sequence where AI weaves warm amber tones with geometric structures to create a precise, design-centric flow.
+                    </p>
+                  </figure>
                 </div>
-                <div class="swiper-slide">
-                  <video controls="" height="520" width="100%">
-                    <!--<video width="100%" height="520" autoplay="" controls loop="" muted="">-->  
-                    <source
-                      src="https://github.com/arielmolina14/fedestrifezzo.github.io/raw/main/assets/img/portfolio/ia/07-ia.webm">
-                    <!-- <source src="/assets/img/portfolio/ia/02-ia.webm.mp4" type="video/mp4"> -->
-                    Your browser does not support the video element.
-                  </video>
+
+                <!-- Slide 7 -->
+                <div class="swiper-slide" role="group" aria-label="Generative AI Neon Green Complexity – Slide 7 of 8">
+                  <figure>
+                    <figcaption class="visually-hidden" lang="en">Generative AI Neon Green Complexity</figcaption>
+                    <video controls preload="metadata" width="100%" height="520" aria-describedby="desc-07" type="video/webm">
+                      <source src="/assets/img/portfolio/ia/07-green-complexity.webm" type="video/webm" />
+                    </video>
+                    <p id="desc-07" class="video-description" lang="en">
+                      An intricate, pattern-heavy exploration of generative AI, balancing vivid contrast and detailed structure for a bold, contemporary motion piece.
+                    </p>
+                  </figure>
                 </div>
-                <div class="swiper-slide">
-                  <video controls="" height="520" width="100%">
-                    <!--<video width="100%" height="520" autoplay="" controls loop="" muted="">-->  
-                    <source
-                      src="https://github.com/arielmolina14/fedestrifezzo.github.io/raw/main/assets/img/portfolio/ia/08-ia.webm">
-                    <!-- <source src="/assets/img/portfolio/ia/02-ia.webm.mp4" type="video/mp4"> -->
-                    Your browser does not support the video element.
-                  </video>
+
+                <!-- Slide 8 -->
+                <div class="swiper-slide" role="group" aria-label="Generative AI Luminous Green Minimalism – Slide 8 of 8">
+                  <figure>
+                    <figcaption class="visually-hidden" lang="en">Generative AI Luminous Green Minimalism</figcaption>
+                    <video controls preload="metadata" width="100%" height="520" aria-describedby="desc-08" type="video/webm">
+                      <source src="/assets/img/portfolio/ia/08-luminous-green-minimalism.webm" type="video/webm" />
+                    </video>
+                    <p id="desc-08" class="video-description" lang="en">
+                      A clean, minimalist motion study where AI sculpts luminous green gradients into a calm, modern visual experience.
+                    </p>
+                  </figure>
                 </div>
+
               </div>
+              <!-- END: AI Portfolio Swiper Slides -->
 
-              <!-- Flechas de navegación -->
-              <div class="swiper-button-next"></div>
-              <div class="swiper-button-prev"></div>
+              <!-- Swiper navigation -->
+              <div class="swiper-button-next" aria-label="Next video"></div>
+              <div class="swiper-button-prev" aria-label="Previous video"></div>
 
-              <!-- Paginación (puntos debajo de las imágenes) -->
-              <div class="swiper-pagination"></div>
-
+              <!-- Pagination dots -->
+              <div class="swiper-pagination" aria-label="Video pagination"></div>
             </div>
           </div>
 
+          <!-- Servicios ofrecidos -->
           <div class="col-lg-12">
             <div class="portfolio-description">
               <p>
-                <span style="color: #ed1c24;">Services I Offer</span> <br> <br> 
-                <span style="color: #ed1c24;">Complete production with AI.</span> Comprehensive development of audiovisual content using only artificial intelligence tools, from conceptualization to post-production. <br> <br>
-                <span style="color: #ed1c24;">Hybridization.</span> Integration of traditional filmmaking techniques with generative AI, maximizing the strengths of both approaches. <br> <br>
-                <span style="color: #ed1c24;">Consulting and Training.</span> Advice for production companies and professionals interested in incorporating generative AI into their workflows. <br> <br>
+                <span style="color: #ed1c24;">Services I Offer</span> <br><br> 
+                <span style="color: #ed1c24;">Complete production with AI.</span> Comprehensive development of audiovisual content using only artificial intelligence tools, from conceptualization to post-production. <br><br>
+                <span style="color: #ed1c24;">Hybridization.</span> Integration of traditional filmmaking techniques with generative AI, maximizing the strengths of both approaches. <br><br>
+                <span style="color: #ed1c24;">Consulting and Training.</span> Advice for production companies and professionals interested in incorporating generative AI into their workflows. <br><br>
                 <span style="color: #ed1c24;">Aimed at</span> Production companies, advertising agencies, bands, companies, content creators, and audiovisual professionals looking to innovate with cutting-edge narratives.
               </p>
             </div>
@@ -163,15 +215,14 @@
         </div>
       </div>
     </section>
-    <!-- End Portfolio Details Section -->
-
   </main>
-  <!-- End #main -->
 
   <!-- Vendor JS Files -->
   <script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="/assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="/assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="/assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="/assets/vendor/aos/aos.js"></script>
 
   <!-- Template Main JS File -->
   <script src="/assets/js/main.js"></script>
