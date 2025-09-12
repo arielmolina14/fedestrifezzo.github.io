@@ -1,37 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- Root (x-default) -->
   <url>
     <loc>https://federicostrifezzo.com/</loc>
-    <lastmod>2025-08-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://federicostrifezzo.com/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://federicostrifezzo.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://federicostrifezzo.com/en/"/>
   </url>
-  <url>
-    <loc>https://federicostrifezzo.com/en/</loc>
-  </url>
+
+  <!-- Home ES -->
   <url>
     <loc>https://federicostrifezzo.com/es/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://federicostrifezzo.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://federicostrifezzo.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://federicostrifezzo.com/"/>
+  </url>
+
+  <!-- Home EN -->
+  <url>
+    <loc>https://federicostrifezzo.com/en/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://federicostrifezzo.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://federicostrifezzo.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://federicostrifezzo.com/"/>
+  </url>
+
+  <!-- Portfolio IA -->
+  <url>
+    <loc>https://federicostrifezzo.com/es/portfolio_ia.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://federicostrifezzo.com/es/portfolio_ia.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://federicostrifezzo.com/en/portfolio_ia.html"/>
   </url>
   <url>
     <loc>https://federicostrifezzo.com/en/portfolio_ia.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://federicostrifezzo.com/en/portfolio_ia.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://federicostrifezzo.com/es/portfolio_ia.html"/>
   </url>
+
+  <!-- Portfolio Filmmaker -->
   <url>
-    <loc>https://federicostrifezzo.com/es/portfolio_ia.html</loc>
+    <loc>https://federicostrifezzo.com/es/portfolio_filmmaker.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://federicostrifezzo.com/es/portfolio_filmmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://federicostrifezzo.com/en/portfolio_filmmaker.html"/>
   </url>
   <url>
     <loc>https://federicostrifezzo.com/en/portfolio_filmmaker.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://federicostrifezzo.com/en/portfolio_filmmaker.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://federicostrifezzo.com/es/portfolio_filmmaker.html"/>
   </url>
+
+  <!-- Portfolio Dirección -->
   <url>
-    <loc>https://federicostrifezzo.com/es/portfolio_filmmaker.html</loc>
+    <loc>https://federicostrifezzo.com/es/portfolio_direccion.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://federicostrifezzo.com/es/portfolio_direccion.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://federicostrifezzo.com/en/portfolio_direction.html"/>
   </url>
   <url>
     <loc>https://federicostrifezzo.com/en/portfolio_direction.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://federicostrifezzo.com/en/portfolio_direction.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://federicostrifezzo.com/es/portfolio_direccion.html"/>
   </url>
-  <url>
-    <loc>https://federicostrifezzo.com/es/portfolio_direccion.html</loc>
-  </url>
-  <url>
-    <loc>https://federicostrifezzo.com/en/portfolio_fotografia.html</loc>
-  </url>
+
+  <!-- Portfolio Fotografía / Photography -->
   <url>
     <loc>https://federicostrifezzo.com/es/portfolio_fotografia.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://federicostrifezzo.com/es/portfolio_fotografia.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://federicostrifezzo.com/en/portfolio_photograph.html"/>
   </url>
+  <url>
+    <loc>https://federicostrifezzo.com/en/portfolio_photograph.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://federicostrifezzo.com/en/portfolio_photograph.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://federicostrifezzo.com/es/portfolio_fotografia.html"/>
+  </url>
+
 </urlset>
