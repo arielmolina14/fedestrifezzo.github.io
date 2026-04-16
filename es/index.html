@@ -18,10 +18,11 @@
   <!-- Favicon -->
   <link rel="icon" href="/assets/img/logo_favicon.webp" type="image/webp" />
   <link rel="apple-touch-icon" href="/assets/img/logo_favicon.webp" />
+  <link rel="preload" href="/assets/img/hero-bg.jpg" as="image" fetchpriority="high" />
 
   <!-- Fuentes & CSS de Vendors -->
+  <link rel="preconnect" href="https://fonts.cdnfonts.com" crossorigin />
   <link href="https://fonts.cdnfonts.com/css/gobold" rel="stylesheet" />
-  <link href="https://fonts.cdnfonts.com/css/akrobat" rel="stylesheet" />
   <link href="/assets/vendor/aos/aos.css" rel="stylesheet" />
   <link href="/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
   <link href="/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
@@ -49,7 +50,7 @@
   </noscript>
 
   <!-- Selector de Idioma -->
-  <div class="lang-switcher" aria-label="Selector de idioma" style="position:fixed; top:12px; right:12px; z-index:9999;">
+  <div class="lang-switcher" aria-label="Selector de idioma">
     <a class="btn btn-sm btn-outline-light" href="/es/" style="margin-right:6px;" aria-label="Versión en español">ES</a>
     <a class="btn btn-sm btn-outline-light" href="/en/" aria-label="English version">EN</a>
   </div>
@@ -103,7 +104,7 @@
           <!-- Tarjeta IA del Portfolio -->
           <div class="col-lg-6 col-md-6 portfolio-item">
             <div class="portfolio-wrap">
-              <img loading="eager" fetchpriority="high" decoding="async" src="/assets/img/portfolio/ia/ia-portada.png" class="img-fluid" alt="Portada de Inteligencia Artificial">
+              <img loading="lazy" decoding="async" src="/assets/img/portfolio/ia/ia-portada.png" class="img-fluid" alt="Portada de Inteligencia Artificial">
               <a href="/es/portfolio_ia.html" data-glightbox="type: external" class="portfolio-details-lightbox">
                 <div class="portfolio-info"></div>
               </a>
@@ -112,7 +113,7 @@
           <!-- Tarjeta Filmmaker del Portfolio -->
           <div class="col-lg-6 col-md-6 portfolio-item">
             <div class="portfolio-wrap">
-              <img loading="eager" fetchpriority="high" decoding="async" src="/assets/img/portfolio/filmmaker/filmmaker-portada.png" class="img-fluid" alt="Portada de Filmmaker">
+              <img loading="lazy" decoding="async" src="/assets/img/portfolio/filmmaker/filmmaker-portada.png" class="img-fluid" alt="Portada de Filmmaker">
               <a href="/es/portfolio_filmmaker.html" data-glightbox="type: external" class="portfolio-details-lightbox">
                 <div class="portfolio-info"></div>
               </a>
@@ -121,7 +122,7 @@
           <!-- Tarjeta Director del Portfolio -->
           <div class="col-lg-6 col-md-6 portfolio-item">
             <div class="portfolio-wrap">
-              <img loading="eager" fetchpriority="high" decoding="async" src="/assets/img/portfolio/direccion/direccion-portada.png" class="img-fluid" alt="Portada de Dirección">
+              <img loading="lazy" decoding="async" src="/assets/img/portfolio/direccion/direccion-portada.png" class="img-fluid" alt="Portada de Dirección">
               <a href="/es/portfolio_direccion.html" data-glightbox="type: external" class="portfolio-details-lightbox">
                 <div class="portfolio-info"></div>
               </a>
@@ -130,7 +131,7 @@
           <!-- Tarjeta Fotografia del Portfolio -->
           <div class="col-lg-6 col-md-6 portfolio-item">
             <div class="portfolio-wrap">
-              <img loading="eager" fetchpriority="high" decoding="async" src="/assets/img/portfolio/fotografia/fotografia-portada.png" class="img-fluid" alt="Portada de Fotografía">
+              <img loading="lazy" decoding="async" src="/assets/img/portfolio/fotografia/fotografia-portada.png" class="img-fluid" alt="Portada de Fotografía">
               <a href="/es/portfolio_fotografia.html" data-glightbox="type: external" class="portfolio-details-lightbox">
                 <div class="portfolio-info"></div>
               </a>
@@ -186,7 +187,7 @@
   <!-- Footer -->
   <footer id="footer">
     <div class="container">
-      <img loading="eager" fetchpriority="high" decoding="async" src="/assets/img/logo_footer.png" alt="Logo de Federico Strifezzo" class="footer-logo">
+      <img loading="lazy" decoding="async" src="/assets/img/logo_footer.png" alt="Logo de Federico Strifezzo" class="footer-logo">
       <div class="social-links">
         <a href="https://www.instagram.com/federicostrifezzo/" class="instagram" target="_blank" rel="noopener noreferrer"><i class="bx bxl-instagram"></i></a>
         <a href="https://www.linkedin.com/in/federico-strifezzo-b79853155/" class="linkedin" target="_blank" rel="noopener noreferrer"><i class="bx bxl-linkedin"></i></a>
@@ -201,17 +202,13 @@
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center" aria-label="Volver arriba"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS -->
-  <script src="/assets/vendor/aos/aos.js"></script>
-  <script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="/assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="/assets/vendor/purecounter/purecounter.js"></script>
-  <script src="/assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="/assets/vendor/typed.js/typed.min.js"></script>
-  <script src="/assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script defer src="/assets/vendor/aos/aos.js"></script>
+  <script defer src="/assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script defer src="/assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script defer src="/assets/vendor/typed.js/typed.min.js"></script>
 
   <!-- JS Principal -->
-  <script src="/assets/js/main.js"></script>
+  <script defer src="/assets/js/main.js"></script>
 </body>
 
 </html>

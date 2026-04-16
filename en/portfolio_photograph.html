@@ -18,8 +18,8 @@
   <link rel="apple-touch-icon" href="/assets/img/logo_favicon.webp" />
 
   <!-- Fonts & CSS -->
+  <link rel="preconnect" href="https://fonts.cdnfonts.com" crossorigin />
   <link href="https://fonts.cdnfonts.com/css/gobold" rel="stylesheet" />
-  <link href="https://fonts.cdnfonts.com/css/akrobat" rel="stylesheet" />
   <link href="/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
   <link href="/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
   <link href="/assets/css/style.css" rel="stylesheet" />
@@ -74,17 +74,17 @@
                 <!-- Each slide uses a figure for semantic meaning -->
                 <!-- You can edit alt texts to describe each image if needed -->
 
-                <div class="swiper-slide"><figure><img loading="lazy" src="/assets/img/portfolio/fotografia/frame1.jpg" alt="Photograph 1 by Federico Strifezzo" /></figure></div>
-                <div class="swiper-slide"><figure><img loading="lazy" src="/assets/img/portfolio/fotografia/frame2.jpg" alt="Photograph 2 by Federico Strifezzo" /></figure></div>
-                <div class="swiper-slide"><figure><img loading="lazy" src="/assets/img/portfolio/fotografia/frame3.jpg" alt="Photograph 3 by Federico Strifezzo" /></figure></div>
-                <div class="swiper-slide"><figure><img loading="lazy" src="/assets/img/portfolio/fotografia/frame4.jpg" alt="Photograph 4 by Federico Strifezzo" /></figure></div>
-                <div class="swiper-slide"><figure><img loading="lazy" src="/assets/img/portfolio/fotografia/frame5.jpg" alt="Photograph 5 by Federico Strifezzo" /></figure></div>
-                <div class="swiper-slide"><figure><img loading="lazy" src="/assets/img/portfolio/fotografia/frame6.jpg" alt="Photograph 6 by Federico Strifezzo" /></figure></div>
-                <div class="swiper-slide"><figure><img loading="lazy" src="/assets/img/portfolio/fotografia/frame7.jpg" alt="Photograph 7 by Federico Strifezzo" /></figure></div>
-                <div class="swiper-slide"><figure><img loading="lazy" src="/assets/img/portfolio/fotografia/frame8.jpg" alt="Photograph 8 by Federico Strifezzo" /></figure></div>
-                <div class="swiper-slide"><figure><img loading="lazy" src="/assets/img/portfolio/fotografia/frame9.jpg" alt="Photograph 9 by Federico Strifezzo" /></figure></div>
-                <div class="swiper-slide"><figure><img loading="lazy" src="/assets/img/portfolio/fotografia/frame10.jpg" alt="Photograph 10 by Federico Strifezzo" /></figure></div>
-                <div class="swiper-slide"><figure><img loading="lazy" src="/assets/img/portfolio/fotografia/frame11.jpg" alt="Photograph 11 by Federico Strifezzo" /></figure></div>
+                <div class="swiper-slide"><figure><img loading="eager" fetchpriority="high" decoding="async" src="/assets/img/portfolio/fotografia/frame1.jpg" alt="Photograph 1 by Federico Strifezzo" /></figure></div>
+                <div class="swiper-slide"><figure><img loading="lazy" decoding="async" src="/assets/img/portfolio/fotografia/frame2.jpg" alt="Photograph 2 by Federico Strifezzo" /></figure></div>
+                <div class="swiper-slide"><figure><img loading="lazy" decoding="async" src="/assets/img/portfolio/fotografia/frame3.jpg" alt="Photograph 3 by Federico Strifezzo" /></figure></div>
+                <div class="swiper-slide"><figure><img loading="lazy" decoding="async" src="/assets/img/portfolio/fotografia/frame4.jpg" alt="Photograph 4 by Federico Strifezzo" /></figure></div>
+                <div class="swiper-slide"><figure><img loading="lazy" decoding="async" src="/assets/img/portfolio/fotografia/frame5.jpg" alt="Photograph 5 by Federico Strifezzo" /></figure></div>
+                <div class="swiper-slide"><figure><img loading="lazy" decoding="async" src="/assets/img/portfolio/fotografia/frame6.jpg" alt="Photograph 6 by Federico Strifezzo" /></figure></div>
+                <div class="swiper-slide"><figure><img loading="lazy" decoding="async" src="/assets/img/portfolio/fotografia/frame7.jpg" alt="Photograph 7 by Federico Strifezzo" /></figure></div>
+                <div class="swiper-slide"><figure><img loading="lazy" decoding="async" src="/assets/img/portfolio/fotografia/frame8.jpg" alt="Photograph 8 by Federico Strifezzo" /></figure></div>
+                <div class="swiper-slide"><figure><img loading="lazy" decoding="async" src="/assets/img/portfolio/fotografia/frame9.jpg" alt="Photograph 9 by Federico Strifezzo" /></figure></div>
+                <div class="swiper-slide"><figure><img loading="lazy" decoding="async" src="/assets/img/portfolio/fotografia/frame10.jpg" alt="Photograph 10 by Federico Strifezzo" /></figure></div>
+                <div class="swiper-slide"><figure><img loading="lazy" decoding="async" src="/assets/img/portfolio/fotografia/frame11.jpg" alt="Photograph 11 by Federico Strifezzo" /></figure></div>
 
                 <!-- END: Slides -->
               </div>
@@ -104,10 +104,8 @@
   </main>
 
   <!-- Vendor JS -->
-  <script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="/assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="/assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="/assets/js/main.js"></script>
+  <script defer src="/assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script defer src="/assets/js/main.js"></script>
 
 </body>
 </html>
